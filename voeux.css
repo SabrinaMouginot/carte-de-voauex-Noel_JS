@@ -74,3 +74,8 @@ section .box .circle h2{
     color: #ff2a2a;
     text-align: center;
 }
+
+section i{
+    position: absolute;
+    background: #000;
+}
