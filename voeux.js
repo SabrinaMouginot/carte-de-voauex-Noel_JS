@@ -12,6 +12,10 @@ function bubbles(){
         bubble.style.top = y+'px';
         bubble.style.width = 1+size+'px';
         bubble.style.height = 1+size+'px';
+
+        bubble.style.animationDuration = 5+size+'s';
+        bubble.style.animationDelay = -size+'s';
+
         section.appendChild(bubble);
         i++;
     }
